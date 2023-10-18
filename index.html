@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <!-- copied from font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- global msg section -->
+      <div class="global-msg">
+        <div class="container">
+          <div class="msg">welcome</div>
+          <div class="social">
+            <!-- icons -->
+            <!-- facebook -->
+            <!-- twitter -->
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-bar">
+        <div class="container">
+          <div class="logo">Mytravel</div>
+          <div class="menu">
+            <ul>
+              <li>Blog</li>
+              <li>Gallery</li>
+              <li>contact</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- hero section -->
+      <div class="hero">
+        <div class="hero-content">
+          <h1>Welcome to Travel blog</h1>
+          <hr />
+          <p>Your one step gateway solution</p>
+        </div>
+      </div>
+      <main class="main container">
+        <div class="main-content">
+          <h2>latest post</h2>
+          <hr />
+          <article>
+            <div class="art-img">
+              <img src="./image/images.jpeg" alt="" width="100%" />
+            </div>
+            <div class="art-content">
+              <div class="title">how to travel around world</div>
+              <div><i class="fa-solid fa-calendar"></i> 2020-10-11</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                neque, magnam dicta voluptates doloremque provident totam, quo
+                vitae nulla similique obcaecati
+              </p>
+              <div class="btn-box">
+                <button class="btn">read more...</button>
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="art-img">
+              <img src="./image/images.jpeg" alt="" width="100%" />
+            </div>
+            <div class="art-content">
+              <div class="title">how to travel around world</div>
+              <div><i class="fa-solid fa-calendar"></i> 2020-10-11</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                neque, magnam dicta voluptates doloremque provident totam, quo
+                vitae nulla similique obcaecati
+              </p>
+              <div class="btn-box">
+                <button class="btn">read more...</button>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="side-links">
+          <div class="read-by-country">
+            <h2>Read by country</h2>
+            <ul>
+              <li>Nepal</li>
+              <li>India</li>
+              <li>USA</li>
+              <li>Australia</li>
+            </ul>
+          </div>
+          <div class="read-by-date">
+            <h3>Read by date</h3>
+            <ul>
+              <li>2021</li>
+              <li>2022</li>
+              <li>2023</li>
+              <li>2024</li>
+            </ul>
+          </div>
+        </div>
+      </main>
+      <!-- recommendation -->
+      <div class="recomendation">
+        <div class="container">
+          <h3>Recommended destination</h3>
+          <hr />
+          <div class="cardlist">
+            <div class="card">
+              <img src="./image/images.jpeg" alt="" width="100%" />
+              <div class="content">
+                <h3>Nepal is the paradise, one time is not enough</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Impedit, repudiandae cumque jjfsdj sdffs fsdfs sfdsdf sdfs
+                  sfdfsd dsfsdf sfdfsd sfdsdf sfds .
+                </p>
+                <button class="btn">Read more...</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./image/images.jpeg" alt="" width="100%" />
+              <div class="content">
+                <h3>Nepal is the paradise, one time is not enough</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Impedit, repudiandae cumque jjfsdj sdffs fsdfs sfdsdf sdfs
+                  sfdfsd dsfsdf sfdfsd sfdsdf sfds .
+                </p>
+                <button class="btn">Read more...</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./image/images.jpeg" alt="" width="100%" />
+              <div class="content">
+                <h3>Nepal is the paradise, one time is not enough</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Impedit, repudiandae cumque jjfsdj sdffs fsdfs sfdsdf sdfs
+                  sfdfsd dsfsdf sfdfsd sfdsdf sfds .
+                </p>
+                <button class="btn">Read more...</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./image/images.jpeg" alt="" width="100%" />
+              <div class="content">
+                <h3>Nepal is the paradise, one time is not enough</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Impedit, repudiandae cumque jjfsdj sdffs fsdfs sfdsdf sdfs
+                  sfdfsd dsfsdf sfdfsd sfdsdf sfds .
+                </p>
+                <button class="btn">Read more...</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- subscription -->
+      <div class="subs">
+        <h3>Subscribe to receive the latest article</h3>
+        <form action="">
+          <input type="text" placeholder="Full name" />
+          <input type="email" placeholder="Email" />
+          <input type="submit" class="btn" value="Subscribe" />
+        </form>
+      </div>
+      <footer>&copy; copy right all reserved made by 🇧🇯</footer>
+    </div>
+  </body>
+</html>
